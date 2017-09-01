@@ -282,6 +282,26 @@ When `user1` logs in, he/she will be able to manage `myAppId1` and `myAppId2` fr
 
 When *`user2`*  logs in, he/she will only be able to manage *`myAppId1`* from the dashboard.
 
+## Configuring Localized Push Notifications
+
+With the latest version of the dashboard, it is possible to send localized messages for push notifications.
+You can provide a list of locales or languages you want to support for your dashboard users.
+
+```json
+{
+  "apps": [
+    {
+      "serverURL": "http://localhost:1337/parse",
+      "appId": "myAppId",
+      "masterKey": "myMasterKey",
+      "appName": "My Parse Server App",
+      "iconName": "MyAppIcon.png",
+      "supportedPushLocales": ["en", "ru", "fr"]
+    }
+  ],
+  "iconsFolder": "icons"
+}
+```
 
 ## Run with Docker
 
