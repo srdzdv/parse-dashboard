@@ -1,5 +1,6 @@
 {
-  "apps": [{
+  "apps": [
+  {
     "serverURL": "https://skola-server.herokuapp.com/parse",
     "appId": "skolaAppId",
     "masterKey": "skolaMasterKey",
@@ -23,6 +24,5 @@
       "pass":"pass"
     }
   ],
-  "useEncryptedPasswords": true,
   "iconsFolder": "icons"
 }
