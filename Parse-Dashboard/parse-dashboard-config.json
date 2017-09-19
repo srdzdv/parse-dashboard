@@ -1,10 +1,28 @@
 {
   "apps": [{
-    "serverURL": "",
-    "appId": "",
-    "masterKey": "",
-    "appName": "",
-    "iconName": ""
+    "serverURL": "https://skola-server.herokuapp.com/parse",
+    "appId": "skolaAppId",
+    "masterKey": "skolaMasterKey",
+    "appName": "Skola México",
+    "iconName": "skola_logo.png"
+  },
+  {
+    "serverURL": "https://skola-bbmetepec-server.herokuapp.com/parse",
+    "appId": "skolabbmetepecAppId",
+    "masterKey": "skolabbmetepecMasterKey",
+    "appName": "BabyBoomer Metepec",
+    "iconName": "skola_logo.png"
   }],
+  "users": [
+    {
+      "user":"salvador@nieu.mx",
+      "pass":"MexicoEsAmor10"
+    },
+    {
+      "user":"user2",
+      "pass":"pass"
+    }
+  ],
+  "useEncryptedPasswords": true,
   "iconsFolder": "icons"
 }
